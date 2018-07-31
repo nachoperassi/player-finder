@@ -1,0 +1,2 @@
+export const UPDATE_FILTERS = 'UPDATE_FILTERS';
+export const LOAD_POSITIONS = 'LOAD_POSITIONS';

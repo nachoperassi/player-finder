@@ -1,0 +1,6 @@
+CONSIDERATIONS:
+
+Every module contains an 'index.js' file:
+-This file is intended as a public interface to the module.
+-It defines the module specific things that will be available to the rest of the app.
+-The access to module's containers, actions, selectors is limited by this file.
