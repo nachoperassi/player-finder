@@ -4,8 +4,8 @@ import React from 'react';
 import TableCell from '@material-ui/core/TableCell';
 import TableRow from '@material-ui/core/TableRow';
 
-const Player = ({ player, key }) => (
-  <TableRow key={key}>
+const Player = ({ player, index }) => (
+  <TableRow key={index}>
     <TableCell>{player.name}</TableCell>
     <TableCell>{player.position}</TableCell>
     <TableCell>{player.nationality}</TableCell>
