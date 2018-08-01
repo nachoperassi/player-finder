@@ -6,7 +6,7 @@ const initialState = {
   errorMessage: ''
 }
 
-const statusReducer = (state = initialState, action) => {
+export const statusReducer = (state = initialState, action) => {
   switch(action.type) {
     case (LOAD_STATUS):
       return ({

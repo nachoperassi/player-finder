@@ -1,2 +1,1 @@
 export const RECEIVE_PLAYERS = 'RECEIVE_PLAYERS';
-export const LOAD_PLAYERS = 'LOAD_PLAYERS';

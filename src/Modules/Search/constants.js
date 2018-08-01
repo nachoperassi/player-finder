@@ -3,7 +3,6 @@ export const positions = [
   'Central Midfield',
   'Centre-Back',
   'Centre-Forward',
-  'Centre-Forward',
   'Defensive Midfield',
   'Keeper',
   'Left Midfield',

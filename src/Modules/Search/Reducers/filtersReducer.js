@@ -2,7 +2,7 @@ import { UPDATE_FILTERS } from '../actionTypes';
 
 import { filters } from '../constants';
 
-const positionsReducer = (state = filters, action) => {
+const filtersReducer = (state = filters, action) => {
   switch (action.type) {
     case (UPDATE_FILTERS):
       return ({
@@ -15,4 +15,4 @@ const positionsReducer = (state = filters, action) => {
   }
 }
 
-export default positionsReducer;
+export default filtersReducer;
